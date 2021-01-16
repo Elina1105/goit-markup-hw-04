@@ -159,6 +159,16 @@ ul {
   background-color:#2F303A;
 }
 
+.section.hero.overlay{
+  max-width:1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../style/fon.jpg');
+}
+
 .hero-text {
   text-align: center;
   max-width: 1600px;
