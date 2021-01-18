@@ -140,6 +140,7 @@ ul {
 
 .button-icon {
   outline: 2px solid tomato;
+  margin-right: 10px;
 }
 
 .header-link .link {
@@ -368,7 +369,79 @@ ul {
   line-height: 1.19;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.social-networks {
   margin-bottom: 30px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  outline: 2px solid tomato;
+
+  list-style: none;
+}
+
+.social-logo:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  outline: 2px solid black;
+}
+
+/* Постійні клієнти */
+.section.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.client-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  outline: 2px solid tomato;
+}
+
+.client-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-item {
+  outline: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 /* ФУТЕР */
