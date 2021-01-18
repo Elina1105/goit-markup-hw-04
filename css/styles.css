@@ -1,9 +1,12 @@
-html{
+html {
   box-sizing: border-box;
 }
 
-*, ::before, ::after{
-  box-sizing: inherit;}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
 :root {
   --primary-text-color: #ffffff;
@@ -13,7 +16,7 @@ html{
 }
 
 body {
-  background-color:var(--primary-text-color);
+  background-color: var(--primary-text-color);
   color: var(--totle-text-color);
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -31,12 +34,12 @@ ul {
   margin-right: auto;
   padding: 0 15px;
   /* outline: 2px solid tomato; */
- }
+}
 
 /* Шапка сайту  */
 .header {
   align-items: center;
-  background:white;
+  background: white;
   display: flex;
 }
 
@@ -44,7 +47,7 @@ ul {
   display: flex;
 }
 
-.page-header{
+.page-header {
   display: flex;
   align-items: center;
 }
@@ -59,7 +62,6 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
-
 }
 
 .logo-web {
@@ -87,7 +89,6 @@ ul {
   padding-bottom: 32px;
 }
 
-
 .site-nav.list .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -107,7 +108,6 @@ ul {
   color: var(--accent-color);
 }
 
-
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -119,9 +119,8 @@ ul {
   margin-left: auto;
   align-items: center;
 }
- 
-.adress-header.link {
 
+.adress-header.link {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -132,16 +131,18 @@ ul {
   display: flex;
   align-items: center;
   color: #757575;
-
 }
 
 .adress-header:hover,
-.adress-header:focus{
- color: var(--accent-color);
-
+.adress-header:focus {
+  color: var(--accent-color);
 }
 
-.header-link .link{
+.button-icon {
+  outline: 2px solid tomato;
+}
+
+.header-link .link {
   padding: 32px 0px;
 }
 
@@ -152,21 +153,21 @@ ul {
 
 /* HERO */
 
-.hero{
+.hero {
   padding: 200px 0;
   letter-spacing: 0.06em;
   text-align: center;
-  background-color:#2F303A;
+  background-color: #2f303a;
 }
 
-.section.hero.overlay{
-  max-width:1600px;
+.section.hero.overlay {
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
   background-position: center;
-  background-image: url('../style/fon.jpg');
+  background-image: url("../style/fon.jpg");
 }
 
 .hero-text {
@@ -197,7 +198,7 @@ ul {
   line-height: 1.87;
   display: inline-block;
   border-radius: 4px;
-  border-style:none ;
+  border-style: none;
   padding: 10px 32px;
   cursor: pointer;
   min-width: 200px;
@@ -209,11 +210,11 @@ ul {
 
 /* НАШІ ФУНКЦІЇ*/
 
-.features{
-padding-bottom: 94px;
-padding-top: 94px;
-letter-spacing: 0.03em;
-display: flex;
+.features {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  letter-spacing: 0.03em;
+  display: flex;
 }
 
 .visually-hidden {
@@ -229,8 +230,8 @@ display: flex;
   list-style: none;
 }
 
-.skills:not(:last-child){
-margin-right: 30px;
+.skills:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-list .title {
@@ -248,6 +249,26 @@ margin-right: 30px;
   margin-bottom: 10px;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  outline: 2px solid tomato;
+}
+
+.actions-icon {
+  width: 70px;
+  height: 70px;
+  outline: 2px solid black;
+}
+
 .features-list .text {
   color: var(--other-text-color);
   font-family: Roboto;
@@ -263,9 +284,9 @@ margin-right: 30px;
 
 /* ЧИМ МИ ЗАЙМАЄМЛСЬ */
 
-.section.work{
-padding-bottom: 94px;
-letter-spacing: 0.03em
+.section.work {
+  padding-bottom: 94px;
+  letter-spacing: 0.03em;
 }
 
 .work-title {
@@ -277,17 +298,16 @@ letter-spacing: 0.03em
   letter-spacing: 0.03em;
   margin-top: 0;
   color: #212121;
-  
 }
 
-.lists{
+.lists {
   display: flex;
   list-style: none;
 }
 
-.img:not(:last-child){
-margin-right: 30px;
-width: 100%;
+.img:not(:last-child) {
+  margin-right: 30px;
+  width: 100%;
 }
 
 /* НАША КОМАНДА */
@@ -297,7 +317,7 @@ width: 100%;
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .team-title {
@@ -315,17 +335,18 @@ width: 100%;
   display: flex;
 }
 
-.team-card{
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.team-card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card:not(:last-child) {
- margin-right: 30px;
+  margin-right: 30px;
 }
 
-.team-card .foto{
-margin-bottom: 30px;
+.team-card .foto {
+  margin-bottom: 30px;
 }
 
 .team-card .name {
@@ -340,7 +361,7 @@ margin-bottom: 30px;
 }
 
 .team-card .position {
-  color:var(--other-text-color);
+  color: var(--other-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -353,17 +374,15 @@ margin-bottom: 30px;
 /* ФУТЕР */
 
 /* Логотип */
-footer{
-  background: #2F303A;
+footer {
+  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer-list {
-align-items: center;
-
+  align-items: center;
 }
-
 
 .logo-footer {
   font-family: Raleway;
@@ -376,7 +395,6 @@ align-items: center;
 
   display: inline-block;
   margin-bottom: 20px;
- 
 }
 .footer-list .web {
   color: var(--accent-color);
@@ -387,7 +405,7 @@ align-items: center;
 
 /* Адрес  в футері */
 
-.adress-footer{
+.adress-footer {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
@@ -398,8 +416,7 @@ align-items: center;
   margin-bottom: 9px;
 }
 
-
-.footer-link{
+.footer-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -409,17 +426,16 @@ align-items: center;
 
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-
 }
- .mail{
-   margin-bottom: 9px;
- }
+.mail {
+  margin-bottom: 9px;
+}
 
 /* СТОРІНКА ПОРТФОЛІО */
 
 /*  Шапка сайту  */
 
-.header.border{
+.header.border {
   border-bottom: 2px solid #f5f4fa;
 }
 
@@ -453,7 +469,7 @@ align-items: center;
   font-size: 14px;
   line-height: 1.19;
   letter-spacing: 0.02em;
- 
+
   text-decoration: none;
   cursor: pointer;
   padding-top: 32px;
@@ -472,53 +488,51 @@ align-items: center;
 
 /* Навігація по авторизації портфоліо */
 
-.adress-link.number{
+.adress-link.number {
   color: #757575;
 }
 
-
 /* MAIN PORTFOLIO */
-
 
 /* Кнопки  по сторінці портфоліо*/
 /* Кнопки */
 
-.section.portfolio{
-padding: 94px 0;
+.section.portfolio {
+  padding: 94px 0;
 }
 
 .buttons {
   display: flex;
   margin-bottom: 50px;
-  list-style:none;
-  justify-content:center;
+  list-style: none;
+  justify-content: center;
 }
 
-.button-list:not(:last-child){
+.button-list:not(:last-child) {
   margin-right: 8px;
 }
 
-.button{
+.button {
   padding: 6px 22px;
-  cursor:pointer;
+  cursor: pointer;
   border-radius: 4px;
   border-color: transparent;
   color: #212121;
-  background-color:var(--accent-color);
+  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
 }
 
 .button:hover,
-.button:focus{
-    color: var(--primary-text-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* КАРТКИ */
@@ -532,21 +546,21 @@ padding: 94px 0;
   margin-left: -30px;
 }
 
-.portfolio-card .item{
+.portfolio-card .item {
   margin: 30px 0 0 30px;
 }
 
-.item-link{
+.item-link {
   display: block;
 }
 
-.img-portfolio{
-width: 100%;
-display: block;
+.img-portfolio {
+  width: 100%;
+  display: block;
 }
-.card-name{
+.card-name {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-card .title {
@@ -572,18 +586,14 @@ display: block;
 
 /* FOOTER PORTFOLIO */
 
-.header .border{
+.header .border {
   border-bottom: 2px solid #f5f4fa;
 }
-.container.footer-portfolio{
+.container.footer-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 215px;
+  padding-left: 215px;
 
-padding-top: 60px;
-padding-bottom: 60px;
-padding-right: 215px;
-padding-left: 215px;
-
-background: #2F303A;
+  background: #2f303a;
 }
-
-
-
