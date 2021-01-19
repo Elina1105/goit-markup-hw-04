@@ -136,6 +136,7 @@ ul {
 
 .button-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-link .link {
