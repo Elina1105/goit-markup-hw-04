@@ -135,7 +135,6 @@ ul {
 }
 
 .button-icon {
-  outline: 2px solid tomato;
   margin-right: 10px;
 }
 
@@ -256,14 +255,11 @@ ul {
   border-radius: 4px;
   margin-bottom: 30px;
   margin-top: 0;
-
-  outline: 2px solid tomato;
 }
 
 .actions-icon {
   width: 70px;
   height: 70px;
-  outline: 2px solid black;
 }
 
 .features-list .text {
@@ -373,7 +369,6 @@ ul {
   margin-top: 0;
   display: flex;
   justify-content: center;
-  outline: 2px solid tomato;
 
   list-style: none;
 }
@@ -389,7 +384,7 @@ ul {
   text-decoration: none;
   width: 44px;
   height: 44px;
-  outline: 2px solid black;
+
   fill: #afb1b8;
 }
 
